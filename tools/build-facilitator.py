@@ -10,7 +10,7 @@ Run after editing index.html or notes.json:
 import json, re, html, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LEARNER_URL = "https://me5231979.github.io/TalentMarketplace/"
+LEARNER_URL = "https://futureslearninghub.github.io/TalentMarketplace/"
 
 s = open(os.path.join(ROOT, 'index.html')).read()
 s = re.sub(r'<script src="assets/js/narration\.js[^"]*"></script>\n?', '', s)
